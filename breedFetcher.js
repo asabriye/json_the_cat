@@ -10,7 +10,7 @@ const fetchBreedDescription = function(breedName, callback) {
     if (breed) {
       callback(null,breed.description);
     } else {
-      callback('breed Unavaliable');
+      callback('Breed Unavailable');
     }
   });
 };
